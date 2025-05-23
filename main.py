@@ -1,8 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget,  QVBoxLayout,QStackedWidget
 
-from auth_app import LoginForm, RegisterForm
-from football_club import FootballClubManager
+from screens.auth_app import LoginForm, RegisterForm
+from screens.football_club import FootballClubManager
 
 class AuthApp(QWidget):
     def __init__(self):

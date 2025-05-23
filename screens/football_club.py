@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt
 
-from player_manager import PlayerManagerWidget
+from screens.player_manager import PlayerManagerWidget
 
 
 # ============ Giao diện Quản lý CLB =============
